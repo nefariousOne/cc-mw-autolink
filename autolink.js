@@ -58,6 +58,7 @@ var mwAppLinker = function () {
 // let's let other plugins execute their JS
 //  before we start messing with the output
 setTimeout(function () {
+    console.log('is this working?');
     mwAppLinker();
 }, 1500);
 
